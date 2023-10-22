@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Google Search</title>
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+  </head>
+  <body>
+    <section>
+      <div
+        class="navbar"style="color: rgb(16, 16, 17); word-spacing:8px; text-align: right">
+        <a class="navlink" href="imagesearch.html">Search </a>
+        <a class="navlink" href="advancedsearch.html">Image </a>
+      </div>
+    <div id="toplogo">
+      <div class="advancedlogo">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google logo"
+          width="75"
+          height="23"
+        />
+      </div>
+    </section>
+    <br />
+    <br />
+     <br />
+    <section>
+      <div class="toptitle">
+        <p class="advancedtitle" style="color: #d93025; font-size: 20px">
+          Advanced Search
+        </p>
+      </div>
+      <hr style="width:100%;text-align:left;margin-left:0;color:#faf8f8f5;">
+    </section>
+    <br />
+    <br />
+    <div class="twoline">
+      <div class="tiptopleft" style="color: #686767; font-size: 16px; font-weight: bold;">Find pages with...</div>
+      <div class="tipstopright" style="color: #686767; font-size: 13px; font-weight: bold;">To do this in the search box</div>
+    </div>
+
+    <section>
+      <div class="formpartright">
+        <div
+          class="lablecontainer"
+          style="color: rgb(15, 15, 15); font-size: 13px"
+        >
+          <form action="https://google.com/search" method="get">
+            <div class="lable">
+              <label>All these words:</label>
+              <input type="text" class="inputboxadvanced" name="as_q" />
+            </div>
+
+            <div class="lable">
+              <label>This exact word or phrase:</label>
+              <input type="text" class="inputboxadvanced" name="as_epq" />
+            </div>
+
+            <div class="lable">
+              <label>Any of these words:</label>
+              <input type="text" class="inputboxadvanced" name="as_oq" />
+            </div>
+
+            <div class="lable">
+              <label>None of these words:</label>
+              <input type="text" class="inputboxadvanced" name="as_eq" />
+            </div>
+
+            <div class="centerbtn">
+              <button type="submit" class="buttonadv" value="Advanced search">
+                Advanced Search
+              </button>
+              <pr></pr>
+            </div>
+          </form>
+          <div class="tipsright">
+            <p class="intendent">
+              Type the important words: tricolor rat terrier
+            <br>
+            <p class="intendent">Put exact words in quotes: "rat terrier"</p>
+            <p class="intendent">
+              Type OR between all the words you want: miniature OR standard
+            </p>
+            <p class="intendent">
+              Put a minus sign just before words you don't want:
+              -rodent,-"JackRussell"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

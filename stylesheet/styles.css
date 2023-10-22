@@ -1,0 +1,227 @@
+body{
+    font-family:Arial,
+        Helvetica,
+        sans-serif;
+}
+p{
+    font-size: 13px;
+}
+.navbar{
+    margin-top: 1rem;
+    margin-right:6rem;
+    font-size: 0.8rem;
+    font-family: Arial,Helvetica,sans-serif;
+    color: black;
+}
+.navlink{
+    margin: 3px;
+    padding: 2px;
+   
+}
+/* all the nevagation */
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(10, 9, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(6, 86, 206);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(138, 3, 48);
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* index page */
+.buttonhome {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #202124;
+    border-radius: 4px;
+    border: none;
+    line-height: 35px;
+    height: 36;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+/*  */
+/*  */
+/*  */
+/* image page */
+.imgsearchcontainer {
+    position: relative;
+}
+/* image page */
+.imgsearchcenter {
+    position: absolute;
+    top: 49%;
+    width:57%;
+    text-align: right;
+    font-size: 18px;
+    color: #4285f4;
+}
+/* image page */
+.imgsearchimg {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+/* image page */
+img.b {
+    vertical-align: text-top;
+}
+/* all the pages */
+.inputbox {
+    /* background: fixed; */
+    border-color:#d2d2d4;
+    border-style: groove;
+    font-size:1rem ;
+    border-radius: 30px;
+    padding:6px;
+    width: 565px;
+    height:33px;
+    text-align: left;
+    outline: none;
+}
+        
+.inputbox:focus{
+    border: 1px solid #d2d2d4;
+    border-style: groove;
+}
+/*  */
+/*  */
+/*  */
+/* advanced page */
+hr{
+    border-collapse: collapse;
+}
+#toplogo{
+    padding-left:10px ;
+
+}
+.advancedlogo{
+  float: left;
+}
+.toptitle{
+    padding-left: 35px;
+    margin-top: 15px;
+}
+.advancedtitle{
+   
+}
+
+.formpartright{
+    padding: 2rem;
+    width: 70%;
+}
+.advancdheader{
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+}
+
+.pagetitle{
+    padding:10px;
+    text-align: left;
+}
+.titleright {
+    padding: 25px;
+    display: inline;
+    align-self: center;
+}
+
+.lablecontainer {
+    width: 100%;
+    height: 300px;
+    border: 1px ;
+    display: flex;
+    align-items: flex-start;
+}
+.lables {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+
+}
+label{
+    display: inline-block;
+    text-align: left;
+    width:200px;
+    height:35px;
+    text-align: left;
+}
+
+.inputboxadvanced {
+    border: 0.2px;
+    border-style: groove;
+    border-color: #d9d9d9;
+    border-collapse: collapse;
+    border-radius: 2px;
+    padding:7px;
+    width:35rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.inputboxadvanced:focus{
+    border: 1px solid #8e94eb;
+}
+.centerbtn{
+border: 3px solid transparent;
+    width:183%;
+    text-align: center;
+}
+.buttonadv{
+    background-color:#4d90fe;
+    border-collapse: collapse;
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 13px;
+    height: 30px;
+    margin:15px;
+    border: 2px solid #4d90fe;
+    text-align: center;
+}
+.tiptopleft {
+    padding:35px;
+    display: inline;
+}
+.tipstopright {
+    text-align: right;
+    padding: 585px;
+    display: inline;
+
+}
+.tipsright{
+    color: #555555;
+}
+.intendent{
+    text-indent: 1em;
+    padding-bottom: 1rem;
+}
+h6 {
+    font-size: 11px;
+}
+hr{
+    display: block;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+    height: 1px;
+    border: 0;
+    background: lightgray;
+}
